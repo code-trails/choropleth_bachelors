@@ -115,27 +115,6 @@ svg.call(tip);
     county.on('mouseover', tip.show)
         .on('mouseout', tip.hide);
 
-      /*(d)=>{
-      var xPosition=d3.select(this).attr('x');
-      var yPosition=d3.select(this).attr('y');
-
-      county.append('text')
-      .attr('x', xPosition)
-      .attr('y', yPosition)
-      .attr('text-anchor', 'middle')
-      .attr('font-family', 'sans-serif')
-      .attr('font-size', '10px')
-      .attr('fill', 'black')
-      .text((d)=>{
-         for (var i=0; i<edudata.length; i++){
-        if (d.id==edudata[i].fips){
-          return (edudata[i].area_name);
-          //+" , "+edudata[i].state+": "+edudata[i].bachelorsOrHigher+"%");
-        }
-      }
-    });
-    })
-*/
  
 console.log(colorScale.invertExtent("#810f7c"));
   console.log(colorScale(70));
